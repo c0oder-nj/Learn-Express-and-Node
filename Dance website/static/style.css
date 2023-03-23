@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung' ;}
+
+#navbar{
+    position: sticky;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    background-color: #4c4343;
+    /* justify-content: center; */
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: lightyellow;
+}
+#navbar li a:hover{
+    color: white;
+    font-weight: bold;
+}
+#navbar li{
+    list-style: none;
+    margin: 10px 55px;
+    font-size: 25px;
+}
+
+#introsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 400px;   
+    background-color: yellow;
+    background: center/cover no-repeat url("../static/images/bg.jpg") ;
+    opacity: 0.88;
+}
+
+#clientsection{
+    height: 300px;
+    background-color: red;
+}
+
+#footer{
+    height: 45px;
+    background-color: black;
+    color: white;
+}
+
+#footer h6{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    /* justify-content: center; */
+    padding: 9px;
+}
+
+.fintro{
+    font-size: 3rem;
+}
+
+.sintro{
+    font-size: 1.5rem;
+}
+
+#ourmission{
+    height: 300px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+}
+#ourmission h1{
+    /* border-bottom: 2px solid black; */
+    /* border-width: 0 0 20px 0; motai of border */
+    /* border-bottom-width: thin; */
+    /* background-color: white */
+    background-color: darkseagreen;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.card-box{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 29%;
+    height: 250px;
+    display: inline-block;
+    margin: 2px 22px;
+    background-color: whitesmoke;
+}
+
+.card{
+    background-color: aqua;
+}
+
+.card-img img{
+    height: 200px;
+    /* display: flex;
+    flex-direction: row; */
+    padding-left: 35px;
+}
+
+.card-img{
+    display: flex;
+    flex-direction: row;
+}
+.card-img h4{
+    font-size: 20px;
+    padding: 73px 10px;
+}
+
+#logo img{
+    height: 46px;
+    filter: invert(1);
+    padding: 7px 0 0 0;
+    cursor: pointer;
+}
+#logo{
+    display: flex;
+    padding-right: 118px;
+}
+#logo h5{
+    font-size: 20px;
+    padding-top: 14px;
+    cursor: pointer;
+    color: lightyellow;
+}
+
+#logo h5 a{
+    color: lightyellow;
+    text-decoration: none;
+}
+
+#logo h5 a:hover{
+    font-weight: bold;
+    color: white;
+}
+
+#clientsection{
+    height: 255px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: aqua;
+    padding-top: 20px;
+}
+
+.client-img img{
+    height: 160px;
+    margin: 13px 52px;
+    justify-content: center;
+    cursor: pointer;
+}
+#clientsection h1{
+    background-color: darkseagreen;
+    border-radius: 20px;
+}
+
+.card-box h3{
+    border-bottom: 2px solid black;
+}

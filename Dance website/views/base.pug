@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Niraj Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar 
+        ul 
+            div#logo  
+              //- #[a(href = '/') img(src="../static/img/logo.png", alt="")]
+              a(href="/") 
+                img(src="../static/img/logo.png", alt="")
+              h5 #[a(href = '/') NDC]
+            li #[a(href = '/') Home]
+            li #[a(href = '/') About]
+            li #[a(href = '/') Services]
+            li #[a(href = '/') Class Info]
+            li #[a(href = '/contact') Contact us]
+    block content
+    footer#footer 
+      h6 Copyright @Nj_the_coder   www.codernj.000webhostapp.com 
+    

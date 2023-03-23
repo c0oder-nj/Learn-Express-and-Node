@@ -1,0 +1,53 @@
+//- index.pug mene pehle ye banai thi baad me ek base.pug banai fir usi ko extends kr diya alg alg files me 
+//- base.pug se navigation or footer aa gaya saari html files me
+doctype html
+html
+  head
+    title Niraj Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+              img(src="../static/img/logo.png", alt="")
+              h5 NDC
+            li #[a(href = '/') Home]
+            li #[a(href = '/') About]
+            li #[a(href = '/') Services]
+            li #[a(href = '/') Class Info]
+            li #[a(href = '/') Contact us]
+    section#introsection 
+      div.fintro 
+        h1 Welcome to our dance Academy 
+      div.sintro 
+        h4 Eat Sleep Dance repeat
+    section#ourmission 
+        h1 Our Missions
+        div.card
+          div.card-box
+            h3 Dance perfection
+            div.card-img
+              img(src="../static/img/1.png", alt="")
+              h4 The Dance is the art of ancient time.
+          div.card-box
+            h3 Super Dancer
+            div.card-img
+              img(src="../static/img/3.png", alt="")
+              h4 The Dance is the art of ancient time.
+          div.card-box
+            h3 Excellent classes
+            div.card-img
+              img(src="../static/img/2.png", alt="")
+              h4 The Dance is the art of ancient time.
+    section#clientsection 
+      h1 Our Clients
+      div.client-img 
+        img(src="../static/img/logo1.png", alt="")
+        img(src="../static/img/logo2.png")
+        img(src="../static/img/logo3.png")
+        img(src="../static/img/logo4.png")
+    footer#footer 
+      h6 Copyright @Nj_the_coder   www.codernj.000webhostapp.com 
+    script
+      include ../static/index.js

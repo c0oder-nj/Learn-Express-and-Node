@@ -1,0 +1,19 @@
+{
+  "name": "niraj",
+  "version": "1.0.0",
+  "description": "Express package made by niraj",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "good",
+    "package"
+  ],
+  "author": "Niraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,2 @@
+imp link in my understanding of express --> https://expressjs.com/en/starter/static-files.html
+https://stackoverflow.com/questions/26079611/node-js-typeerror-path-must-be-absolute-or-specify-root-to-res-sendfile-failed

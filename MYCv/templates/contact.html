@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niraj Chittodiya- Web developer,Programmer</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/intro">My intro</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/blog">blog</a></li>
+          <li><a href="/contact">Contact me</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="hamburger">
+        <img src="ham.png" alt="" class="ham" width="28px">
+        <img src="cross.png" alt="" class="cross" width="28px">
+      </div>
+      <div class="contactform">
+        <h1>Contact me for work/general Enquiry</h1>
+        <form method="post" action="/">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="name" name="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" name="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            <!-- <div id="emailHelp" class="form-text">We'll never share your phone and email with anyone else.</div> -->
+          </div>
+          <div class="mb-3">
+            <label for="clientphone" class="form-label">Phone Number</label>
+            <input name="phone" class="form-control" id="clientphone">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Message For me</label>
+            <!-- <input type="" class="form-control" id="clientemail" aria-describedby="emailHelp"> -->
+            <textarea name="msg" id="clientemail" cols="10" rows="10"></textarea>
+          </div>
+          <div class="mb-3" id="form-check">
+            <input type="checkbox" class="form-check-input" id="isclient">
+            <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="/static/index.js"></script>
+</body>
+
+</html>

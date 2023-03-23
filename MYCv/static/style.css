@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: rgb(173, 173, 173);
+    /* width: 434px;  */
+    font-family: 'Fira sans', sans-serif;
+    transition: transform 0.3s ease-in;
+    /* position: absolute; */
+    height: 120vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 27px;
+    padding: 33px 0;
+}
+.main{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    width: 86vw;
+    padding: 26px;
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.infocontainer{
+    /* background-color: rgb(218, 193, 193); */
+    height: 47vh;
+    width: 80vw;
+    margin: 134px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 40px;
+}
+
+.devpic img{
+    /* width: 374px; */
+    height: 47vh;
+}
+
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 24px;
+}
+
+.lapt{
+    font-size: 17px;
+    color: #987a7a;
+    font-family: 'Fira Sans';
+}
+
+
+.btn{
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar nav li a:hover{
+    font-weight: bold;
+    color: blue;
+    background-color: rgb(194, 185, 185);;
+    border: 2px dashed black;
+    border-radius: 18px;
+    padding: 5px;
+}
+/* .sidebar nav li a:hover{
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: yellow;
+    color: blue;
+    border-radius: 20px;
+    padding: 25px;
+} */
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 34px;
+    /* padding-top: 50px; */
+    
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.contactform form textarea{
+    height: 100px;
+    width: 376px;
+    border-radius: 20px;
+}
+
+.blogitems{
+    margin: 20px 23px;
+    
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+    margin-bottom: 85px;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.btn-sm{
+    height: 32px;
+    padding: 0px 5px;
+    font-size: 14px;
+}
+.intro{
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+
+.intro p{
+    margin: 12px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+
+
+
+.box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.box{
+    z-index: -1;
+    position: relative;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.box h4{
+    z-index: -1;
+    text-transform: uppercase;
+    color: #04080e;
+    font-weight: 500;
+    padding: 10px 35px;
+    /* font-family: 'Source Code Pro', monospace; */
+
+}
+.box .percent{
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.box .percent div{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+@media (max-width: 900px){
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+    .devpic{
+        display: none;
+    }
+}
+
+@media(max-width: 1000px){
+    .sidebar{
+        position: absolute;
+    }
+}
+
+@media(max-width: 490px){
+    .devInfo{
+        margin-top: 220px;
+    }
+    .sidebar{
+        height: 138vh;
+    }
+    .infocontainer div{
+        padding: 15px;
+    }
+    .intro{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 26px;
+    }
+    .box{
+        z-index: -1;
+        position: relative;
+        width: 115%;
+        display: grid;
+        grid-template-columns: 113px 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 10px -30px;
+    }
+
+    .contactform{
+        
+    font-family: 'Fira Sans', sans-serif;
+    /* padding: 0px 0px; */
+    /* padding-top: 0px; */
+    margin: 0px;
+    padding: 0px;
+    }
+
+    .contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 0px 0px;
+    font-size: 27px;
+    }
+
+    .contactform .mb-3{
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contactform form{
+        margin-top: -40px;
+    }
+    .contactform form div input {
+        width: 85vw;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+        padding: 3px;
+    }
+
+    .contactform form textarea {
+        height: 100px;
+        width: 278px;
+        border-radius: 20px;
+}
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 13px;
+    left: 20px;
+}
+
+.cross{
+    margin-left: 128px;
+}

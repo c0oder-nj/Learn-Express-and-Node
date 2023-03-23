@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#introsection 
+      div.fintro 
+        h1 Welcome to our dance Academy 
+      div.sintro 
+        h4 Eat Sleep Dance repeat
+    section#ourmission 
+        h1 Our Missions
+        div.card
+          div.card-box
+            h3 Dance perfection
+            div.card-img
+              img(src="../static/img/1.png", alt="")
+              h4 The Dance is the art of ancient time.
+          div.card-box
+            h3 Super Dancer
+            div.card-img
+              img(src="../static/img/3.png", alt="")
+              h4 The Dance is the art of ancient time.
+          div.card-box
+            h3 Excellent classes
+            div.card-img
+              img(src="../static/img/2.png", alt="")
+              h4 The Dance is the art of ancient time.
+    section#clientsection 
+      h1 Our Clients
+      div.client-img 
+        img(src="../static/img/logo1.png", alt="")
+        img(src="../static/img/logo2.png")
+        img(src="../static/img/logo3.png")
+        img(src="../static/img/logo4.png")
+    
